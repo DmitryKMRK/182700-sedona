@@ -5,7 +5,7 @@
   line-height: 21px;
   color: black;
 }
-h6 {
+.sedona-introduction-container h1 {
   font-family: PTSans, Myriad Pro, sans-serif;
   font-size: 21px;
   font-weight: bold;;
@@ -40,3 +40,156 @@ h5 {
   line-height: 21px;
   color: black;
 }
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 1px solid green;
+
+}
+
+/*Главная*/
+.main-header {
+  min-height: 56px;
+  outline: 1px solid red;
+}
+
+.navigation-menu-item {
+  display: inline-block;
+  width: 20%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.big-image {
+  min-height: 508px;
+  outline: 1px solid blue;
+}
+
+.sedona-introduction {
+  min-height: 216px;
+  outline: 1px solid yellow;
+}
+
+.feature-img-block {
+  height: 256px;
+  outline: 1px solid red;
+}
+
+.feature-blue-1 {
+  background-color: 81b3d2;
+  width: 400px;
+  height: 256px;
+  float: left;
+}
+
+.feature-blue-2 {
+  background-color: 81b3d2;
+  width: 400px;
+  height: 256px;
+  float: right;
+}
+
+.feature-img-1 {
+  width: 800px;
+  height: 256px;
+  float: right;
+}
+
+.feature-img-2 {
+  width: 800px;
+  height: 256px;
+  float: left;
+}
+
+.features-icon-block {
+  height: 330px;
+  font-size: 0px;
+  outline: 1px solid blue;
+}
+
+.feature-icon {
+  height: 330px;
+  width: 400px;
+  display: inline-block;
+  font-size: 14px;
+  outline: 1px solid blue;
+}
+
+.features-second-block {
+  height: 256px;
+  font-size: 0px;
+  outline: 1px solid blue;
+}
+
+.feature-item {
+  height: 256px;
+  width: 400px;
+  display: inline-block;
+  font-size: 14px;
+  outline: 1px solid blue;
+}
+
+.booking {
+  min-height: 291px;
+  outline: 1px solid red;
+}
+
+.booking-title {
+  margin: auto;
+}
+
+.booking-button {
+  width: 568px;
+  height: 86px;
+  background-color: 766357;
+  color: ffffff;
+}
+
+.form-window {
+  width: 568px;
+  height: 395px;
+}
+
+.form-button {
+  width: 458px;
+  height: 58px;
+  background-color: 81b3d2;
+  color: ffffff;
+}
+
+.map {
+  height: 473px;
+}
+
+.main-footer {
+  height: 120px;
+}
+
+.footer-hashtag {
+  width: 400px;
+  height: 120px;
+  float: left;
+  outline: 1px solid blue;
+}
+
+.footer-social {
+  width: 400px;
+  height: 120px;
+  float: left;
+  outline: 1px solid blue;
+}
+
+.footer-copyright {
+  width: 400px;
+  height: 120px;
+  float: right;
+  outline: 1px solid blue;
+}
+
+/*Отели*/
