@@ -1,10 +1,5 @@
-@font-face {
-    font-family: PTSans Bold;
-    src: url(../fonts/ptsansbold.woff);
-   }
-
 body {
-  font-family: PTSans Bold, Arial, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: black;
@@ -20,31 +15,26 @@ body {
 }
 
 h1 {
-  font-family: PTSans Bold, Arial, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 21px;
   line-height: 26px;
   color: black;
 }
-h2 {
-  font-family: PTSans Bold, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 26px;
-  color: black;
-}
+
 h3 {
-  font-family: PTSans Bold, Arial, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: black;
 }
 h4 {
-  font-family: PTSans Bold, Arial, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 30px;
   line-height: 24px;
   color: black;
 }
 h5 {
-  font-family: PTSans Bold, Arial, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 16px;
   line-height: 21px;
   color: black;
@@ -54,26 +44,30 @@ h5 {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid green;
-
 }
 
 /*Главная*/
 .main-header {
-  outline: 1px solid red;
   background-color: white;
+  position: relative;
+}
+
+.navigation-menu {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-menu-item {
   width: 240px;
   height: 56px;
   background-color: white;
-  font-family: PTSans Bold, Myriad Pro, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: black;
   text-decoration: none;
   list-style: none;
+  text-align: center;
 }
 
 .navigation-menu-information {
@@ -92,30 +86,75 @@ h5 {
   float: right;
 }
 
+.navigation-menu a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+  line-height: 52px;
+}
+
+.navigation-menu a:hover {
+  text-decoration: none;
+  color: #81b3d2;
+}
+
+.navigation-menu a:active {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
 .logo {
   display: inline-block;
   position: absolute;
+  left: 530px;
 }
 
 .big-image {
   min-height: 508px;
-  outline: 1px solid blue;
   background-image: url(../img/main-photo-complete.jpg);
   background-repeat: no-repeat;
-  background-position: 0 -57px;
+  background-position: 0 -56px;
 }
 
 .sedona-introduction {
   min-height: 216px;
-  outline: 1px solid yellow;
   display: inline-block;
   text-align: center;
   background-color: white;
 }
 
+.sedona-introduction h1 {
+  margin-top: 57px;
+}
+
+.sedona-introduction span {
+  font-family: PT Sans, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.feature h3 {
+  width: 155px;
+  margin: auto;
+}
+
+.feature p {
+  width: 302px;
+  margin: auto;
+  margin-top: 21px;
+}
+
+.feature span {
+  display: inline-block;
+  margin: auto;
+  margin-top: 21px;
+}
+
 .feature-img-block {
   min-height: 256px;
-  outline: 1px solid red;
   color: white;
 }
 
@@ -124,7 +163,7 @@ h5 {
 }
 
 .feature-blue-1 {
-  background-color: 81b3d2;
+  background-color: #81b3d2;
   width: 400px;
   height: 256px;
   float: left;
@@ -133,12 +172,16 @@ h5 {
 }
 
 .feature-blue-2 {
-  background-color: 81b3d2;
+  background-color: #81b3d2;
   width: 400px;
   height: 256px;
   float: right;
   display: inline-block;
   text-align: center;
+}
+
+.feature-blue h3 {
+  margin-top: 54px;
 }
 
 .feature-img-1 {
@@ -158,7 +201,6 @@ h5 {
 .features-icon-block {
   min-height: 330px;
   font-size: 0px;
-  outline: 1px solid blue;
   background-color: white;
 }
 
@@ -167,15 +209,28 @@ h5 {
   width: 400px;
   display: inline-block;
   font-size: 14px;
-  outline: 1px solid blue;
   text-align: center;
   vertical-align: top;
+}
+
+.icon {
+  margin-top: 60px;
+}
+
+.feature-icon h3 {
+  margin: auto;
+  margin-top: 23px;
+}
+
+.feature-icon p {
+  width: 285px;
+  margin: auto;
+  margin-top: 23px;
 }
 
 .features-second-block {
   min-height: 256px;
   font-size: 0px;
-  outline: 1px solid blue;
   background-color: #eeeeee;
 }
 
@@ -184,8 +239,11 @@ h5 {
   width: 400px;
   display: inline-block;
   font-size: 14px;
-  outline: 1px solid blue;
   text-align: center;
+}
+
+.feature-item h3 {
+  margin-top: 46px;
 }
 
 .booking {
@@ -199,7 +257,7 @@ h5 {
 .booking-button {
   width: 568px;
   height: 86px;
-  background-color: 766357;
+  background-color: #766357;
   color: ffffff;
   margin: auto;
 }
@@ -220,27 +278,35 @@ h5 {
 
 .map {
   min-height: 473px;
-  outline: 1px solid red;
   background-image: url(../img/map.jpg);
 }
 
 .main-footer {
   min-height: 120px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-item {
   width: 400px;
   height: 120px;
-  outline: 1px solid blue;
 }
 
 .footer-hashtag {
   float: left;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-hashtag span {
+  display: block;
+  margin-top: 47px;
 }
 
 .footer-social {
   float: left;
   font-size: 0px;
+  text-align: center;
 }
 
 .social-btn {
@@ -251,6 +317,7 @@ h5 {
   background-color: #81b3d2;
   margin-right: 6px;
   position: relative;
+  margin-top: 35px;
 }
 
 .social-btn::before {
@@ -285,6 +352,17 @@ h5 {
 
 .footer-copyright {
   float: right;
+  text-align: center;
+}
+
+.footer-copyright p {
+  margin-top: 41px;
+}
+
+.footer-copyright a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
 }
 
 /*Отели*/
