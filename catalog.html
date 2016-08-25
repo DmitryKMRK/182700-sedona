@@ -20,7 +20,7 @@
             </ul>
           </div>
           <div class="logo">
-            <a href="index.html"><img src="http://placehold.it/50x50" alt="Лого"></a>
+            <a href="index.html"><img src="img/logo-combined.png" alt="Лого"></a>
           </div>
       </header>
 
@@ -52,18 +52,20 @@
                 </ul>
               </div>
               <div class="form-block-right">
-                <h5>Стоимость в сутки (Р):</h5>
-                <div class="price-controls">
-                    от <input class="min-price" type="text" value="0">
-                    до <input class="max-price" type="text" value="3000">
-                </div>
-                <div class="range-controls">
-                    <div class="scale"></div>
-                    <div class="toggle min-toggle"></div>
-                    <div class="toggle max-toggle"></div>
-                </div>
-                <div class="form-button">
-                  <input type="submit" value="Показать">
+                <div class="filter-range">
+                  <div class="filter-range-title">Стоимость в сутки (р):</div>
+                  <div class="price-controls">
+                    <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                    <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                  </div>
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar"></div>
+                    </div>
+                    <div class="range-toggle range-toggle-min"></div>
+                    <div class="range-toggle range-toggle-max"></div>
+                  </div>
+                  <button class="btn-transparent" type="submit">Показать</button>
                 </div>
               </div>
             </form>
@@ -199,16 +201,16 @@
 
       <footer class="main-footer clearfix">
           <div class="footer-item footer-hashtag">
-            <b>#Visitsedona</b>
+            <span>#Visitsedona</span>
           </div>
           <div class="footer-item footer-social">
             <a class="social-btn social-btn-tw" href="#">Twitter</a>
             <a class="social-btn social-btn-fb" href="#">Facebook</a>
-            <a class="social-btn social-btn-yout" href="#">Youtube</a>
+            <a class="social-btn social-btn-yt" href="#">Youtube</a>
           </div>
           <div class="footer-item footer-copyright">
-            <span>Website by</span>
-            <a class="footer-copyright-img" href="https://htmlacademy.ru"><img src="http://placehold.it/100x100" alt="HTML Academy"></a>
+            <p>Website by
+            <a class="footer-copyright-img" href="https://htmlacademy.ru"></a></p>
           </div>
       </footer>
     </div>

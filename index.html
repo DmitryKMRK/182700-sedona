@@ -6,10 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
+
+
   <body>
     <div class="container">
-
-
       <header class="main-header clearfix">
           <div class="navigation">
             <ul class="navigation-menu">
@@ -101,9 +101,9 @@
 
         <div class="booking container">
           <div class="booking-title">
-            <h4>Заинтересовались?</h4>
-            <h2>Укажите предполагаемые даты поездки,<br>
-              и мы покажем вам лучшие предложения гостиниц в Седоне</h2>
+            <h2>Заинтересовались?</h2>
+            <span>Укажите предполагаемые даты поездки,<br>
+              и мы покажем вам лучшие предложения гостиниц в Седоне</span>
           </div>
           <div class="booking-button">
             <a href="/">Поиск гостиницы в Седоне</a>
@@ -111,21 +111,23 @@
           </div>
           <div class="form-window">
             <form action="/" method="post">
-              <div class="date-in">
-                <label for="date-in">Дата заезда:</label>
-                <input type="text" name="date-in" id="date-in" value="24 апреля 2016" required>
-              </div>
-              <div class="date-out">
-                <label for="date-out">Дата выезда:</label>
-                <input type="text" name="date-out" id="date-out" value="4 июля 2016" required>
-              </div>
-              <div class="adults-quantity">
-                <label for="adults-quantity">Взрослые:</label>
-                <input type="number" name="adults-quantity" id="adults-quantity" value="2" required>
-              </div>
-              <div class="kids-quantity">
-                <label for="kids-quantity">Дети:</label>
-                <input type="number" name="kids-quantity" id="kids-quantity" value="0" required>
+              <div class="input-container">
+                <div class="date-in">
+                  <label for="date-in">Дата заезда:</label>
+                  <input type="text" name="date-in" id="date-in" value="24 апреля 2016" required>
+                </div>
+                <div class="date-out">
+                  <label for="date-out">Дата выезда:</label>
+                  <input type="text" name="date-out" id="date-out" value="4 июля 2016" required>
+                </div>
+                <div class="adults-quantity">
+                  <label for="adults-quantity">Взрослые:</label>
+                  <input type="text" name="adults-quantity" id="adults-quantity" value="2" required>
+                </div>
+                <div class="kids-quantity">
+                  <label for="kids-quantity">Дети:</label>
+                  <input type="text" name="kids-quantity" id="kids-quantity" value="0" required>
+                </div>
               </div>
               <div class="form-button">
                 <input type="submit" value="Найти">
@@ -150,7 +152,7 @@
           </div>
           <div class="footer-item footer-copyright">
             <p>Website by
-            <a class="footer-copyright-img" href="https://htmlacademy.ru"><img src="img/html-academy.png" alt="HTML Academy"></a></p>
+            <a class="footer-copyright-img" href="https://htmlacademy.ru"></a></p>
           </div>
       </footer>
     </div>
