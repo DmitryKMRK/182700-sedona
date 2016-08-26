@@ -219,13 +219,28 @@ h5 {
   vertical-align: top;
 }
 
-.icon {
+.icon-house {
   margin-top: 60px;
 }
 
-.feature-icon h3 {
-  margin: auto;
+.icon-food {
+  margin-top: 61px;
+}
+
+.icon-gift {
+  margin-top: 57px;
+}
+
+.feature-icon-house h3 {
+  margin-top: 22px;
+}
+
+.feature-icon-food h3 {
   margin-top: 23px;
+}
+
+.feature-icon-gift h3 {
+  margin-top: 21px;
 }
 
 .feature-icon p {
@@ -254,10 +269,10 @@ h5 {
 
 .booking {
   height: 291px;
-  outline: 1px solid red;
   display: inline-block;
   text-align: center;
   background-color: white;
+  position: relative;
 }
 
 .booking-title h2 {
@@ -276,7 +291,7 @@ h5 {
   background-color: #766357;
   color: ffffff;
   margin: auto;
-  margin-top: 46px;
+  margin-top: 49px;
 }
 
 .booking-button a {
@@ -298,6 +313,8 @@ h5 {
   background-color: white;
   padding-top: 55px;
   padding-bottom: 55px;
+  position: absolute;
+  left: 316px;
 }
 
 .input-container {
