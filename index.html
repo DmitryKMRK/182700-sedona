@@ -16,7 +16,7 @@
               <li class="navigation-menu-item navigation-menu-information"><a href="/">Информация</a></li>
               <li class="navigation-menu-item navigation-menu-photo"><a href="/">Фото и видео</a></li>
               <li class="navigation-menu-item navigation-menu-map"><a href="/">Карта штата</a></li>
-              <li class="navigation-menu-item navigation-menu-hotels"><a href="/">Гостиницы</a></li>
+              <li class="navigation-menu-item navigation-menu-hotels"><a href="catalog.html">Гостиницы</a></li>
             </ul>
           </div>
           <div class="logo">
@@ -27,6 +27,9 @@
 
       <main>
         <div class="big-image">
+          <img class="welcome-img" src="img/welcome-gorgeous.png" alt="Welcome to the goregeous">
+          <img class="sedona-img" src="img/sedona.png" alt="Sedona">
+          <img class="canyon-img" src="img/grand-canyon.png" alt="Because the Grand Canyon sucks!">
         </div>
 
         <div class="sedona-introduction container">
@@ -112,21 +115,27 @@
           <div class="form-window">
             <form action="/" method="post">
               <div class="input-container">
-                <div class="date-in">
+                <div class="date date-in">
                   <label for="date-in">Дата заезда:</label>
                   <input type="text" name="date-in" id="date-in" value="24 апреля 2016" required>
+                  <div class="calendar-icon"></div>
                 </div>
-                <div class="date-out">
+                <div class="date date-out">
                   <label for="date-out">Дата выезда:</label>
                   <input type="text" name="date-out" id="date-out" value="4 июля 2016" required>
+                  <div class="calendar-icon"></div>
                 </div>
-                <div class="adults-quantity">
+                <div class="quantity adults-quantity">
                   <label for="adults-quantity">Взрослые:</label>
+                  <button class="button button-minus">-</button>
                   <input type="text" name="adults-quantity" id="adults-quantity" value="2" required>
+                  <button class="button button-plus">+</button>
                 </div>
-                <div class="kids-quantity">
+                <div class="quantity kids-quantity">
                   <label for="kids-quantity">Дети:</label>
+                  <button class="button button-minus">-</button>
                   <input type="text" name="kids-quantity" id="kids-quantity" value="0" required>
+                  <button class="button button-plus">+</button>
                 </div>
               </div>
               <div class="form-button">
@@ -135,25 +144,24 @@
             </form>
           </div>
         </div>
-
-        <div class="map">
-        </div>
       </main>
 
 
       <footer class="main-footer clearfix">
-          <div class="footer-item footer-hashtag">
-            <span>#Visitsedona</span>
-          </div>
-          <div class="footer-item footer-social">
-            <a class="social-btn social-btn-tw" href="#">Twitter</a>
-            <a class="social-btn social-btn-fb" href="#">Facebook</a>
-            <a class="social-btn social-btn-yt" href="#">Youtube</a>
-          </div>
-          <div class="footer-item footer-copyright">
-            <p>Website by
-            <a class="footer-copyright-img" href="https://htmlacademy.ru"></a></p>
-          </div>
+        <div class="map">
+        </div>
+        <div class="footer-item footer-hashtag">
+          <span>#Visitsedona</span>
+        </div>
+        <div class="footer-item footer-social">
+          <a class="social-btn social-btn-tw" href="#">Twitter</a>
+          <a class="social-btn social-btn-fb" href="#">Facebook</a>
+          <a class="social-btn social-btn-yt" href="#">Youtube</a>
+        </div>
+        <div class="footer-item footer-copyright">
+          <p>Website by
+          <a class="footer-copyright-img" href="https://htmlacademy.ru"></a></p>
+        </div>
       </footer>
     </div>
   </body>
