@@ -324,9 +324,18 @@ body > .container {
   width: 568px;
   height: 86px;
   background-color: #766357;
-  color: ffffff;
+  color: #ffffff;
   margin: auto;
   margin-top: 49px;
+}
+
+.booking-button a:hover {
+  background-color: #604e43;
+}
+
+.booking-button a:active {
+  background-color: #503e33;
+  color: #7b6d65;
 }
 
 .booking-button a {
@@ -334,6 +343,7 @@ body > .container {
   text-decoration: none;
   font-size: 21px;
   line-height: 86px;
+  width: 100%;
   font-weight: bold;
   color: white;
 }
@@ -350,6 +360,11 @@ body > .container {
   position: absolute;
   left: 316px;
   z-index: 4;
+  display: none;
+}
+
+.form-window-show {
+  display: block;
 }
 
 .input-container {
