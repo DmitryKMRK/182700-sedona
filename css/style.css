@@ -768,6 +768,10 @@ body > .container {
   font-size: 26px;
 }
 
+.form-block input[type="checkbox"]:disabled + label::before {
+  color: #6a6a6a;
+}
+
 .form-block input[type="checkbox"]:checked + label::before {
   content: "\2611";
 }
