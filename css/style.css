@@ -70,8 +70,8 @@ body > .container {
 }
 
 .navigation-menu-item {
-  width: 240px;
-  height: 56px;
+  float: left;
+  width: 20%;
   background-color: white;
   font-family: PT Sans, Arial, sans-serif;
   font-size: 14px;
@@ -80,28 +80,17 @@ body > .container {
   text-decoration: none;
   list-style: none;
   text-align: center;
+  padding-top: 16px;
+  padding-bottom: 18px;
 }
 
-.navigation-menu-information {
-  float: left;
-}
-
-.navigation-menu-photo {
-  float: left;
-}
-
-.navigation-menu-hotels {
-  float: right;
-}
-
-.navigation-menu-map {
-  float: right;
+.navigation-menu-item:nth-child(2) {
+  margin-right: 20%;
 }
 
 .navigation-menu a {
   text-decoration: none;
   color: black;
-  line-height: 52px;
 }
 
 .navigation-menu a:hover {
@@ -124,10 +113,13 @@ body > .container {
 .big-image {
   min-height: 508px;
   background-image: url(../img/main-photo.jpg);
+  background-color: #e4f1fa;
   background-position: 0 -57px;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
+  padding-top: 76px;
+  box-sizing: border-box;
 }
 
 .big-image::after {
@@ -142,19 +134,16 @@ body > .container {
 
 .big-image img {
   display: block;
-  margin: auto;
-}
-
-.welcome-img {
-  padding-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sedona-img {
-  padding-top: 51px;
+  margin-top: 52px;
 }
 
 .canyon-img {
-  padding-top: 55px;
+  margin-top: 55px;
 }
 
 .sedona-introduction {
@@ -713,6 +702,7 @@ body > .container {
 .form-container {
   min-height: 217px;
   background-image: url(../img/filter-background.jpg);
+  background-color: #85a0be;
   background-repeat: no-repeat;
   padding-top: 26px;
   box-sizing: border-box;
@@ -1033,16 +1023,10 @@ h3 a:active {
   margin-top: -8px;
 }
 
-.cost-1 {
-  margin-left: 38px;
-}
-
-.cost-2 {
-  margin-left: 64px;
-}
-
-.cost-3 {
-  margin-left: 21px;
+.house-type {
+  display: inline-block;
+  width: 110px;
+  margin-right: 6px;
 }
 
 .hotel-list-item-buttons {
