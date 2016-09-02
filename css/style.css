@@ -154,7 +154,7 @@ body > .container {
 }
 
 .sedona-introduction h1 {
-  margin-top: 57px;
+  margin-top: 60px;
 }
 
 .sedona-introduction span {
@@ -163,7 +163,7 @@ body > .container {
   line-height: 26px;
   color: black;
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 13px;
 }
 
 .feature h3 {
@@ -180,7 +180,7 @@ body > .container {
 .feature span {
   display: inline-block;
   margin: auto;
-  margin-top: 21px;
+  margin-top: 25px;
 }
 
 .feature-img-block {
@@ -269,7 +269,7 @@ body > .container {
 .feature-icon p {
   width: 285px;
   margin: auto;
-  margin-top: 23px;
+  margin-top: 25px;
 }
 
 .features-second-block {
@@ -300,7 +300,7 @@ body > .container {
 
 .booking-title h2 {
   margin-top: 56px;
-  margin-bottom: 31px;
+  margin-bottom: 32px;
 }
 
 .booking-title span {
@@ -700,11 +700,12 @@ body > .container {
 
 /*Отели*/
 .form-container {
-  min-height: 217px;
   background-image: url(../img/filter-background.jpg);
+  background-position: 0% 16%;
   background-color: #85a0be;
   background-repeat: no-repeat;
   padding-top: 26px;
+  padding-bottom: 17px;
   box-sizing: border-box;
 }
 
@@ -775,6 +776,7 @@ body > .container {
 
 .form-block-central {
   float: left;
+  margin-left: -7px;
 }
 
 .form-block-right {
@@ -782,13 +784,14 @@ body > .container {
 }
 
 .filter-range {
-  width: 330px;
+  width: 317px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .filter-range-title {
   margin-bottom: 9px;
+  margin-left: -10px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -796,11 +799,13 @@ body > .container {
 
 .price-controls {
   position: relative;
-  height: 36px;
+  height: 30px;
   margin-bottom: 20px;
   font-size: 0;
+  margin-top: 10px;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  padding-bottom: 3px;
 }
 
 .price-controls::after {
@@ -825,7 +830,7 @@ body > .container {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 61px;
 }
 
 .price-controls input {
@@ -844,7 +849,7 @@ body > .container {
 }
 
 .range-controls .scale {
-  height: 2px;
+  height: 1px;
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -880,8 +885,8 @@ body > .container {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  margin: 0 27%;
+  padding: 6px 30px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -952,8 +957,6 @@ body > .container {
 }
 
 .arrows {
-  width: 23px;
-  min-height: 10px;
   font-size: 23px;
   float: right;
   margin-top: 32px;
@@ -961,6 +964,7 @@ body > .container {
 
 .arrow-up {
   color: #cccccc;
+  display: inline-block;
 }
 
 .arrow-up:hover {
@@ -973,6 +977,9 @@ body > .container {
 
 .arrow-down {
   color: #81b3d2;
+  display: inline-block;
+  margin-right: -10px;
+  margin-left: -16px;
 }
 
 .hotel-list-item {
@@ -1026,7 +1033,7 @@ h3 a:active {
 .house-type {
   display: inline-block;
   width: 110px;
-  margin-right: 6px;
+  margin-right: 4px;
 }
 
 .hotel-list-item-buttons {
@@ -1037,11 +1044,6 @@ h3 a:active {
 
 .blue-button {
   display: inline-block;
-  margin-right: 6px;
-}
-
-.blue-button a {
-  display: inline-block;
   width: 110px;
   height: 27px;
   color: white;
@@ -1050,22 +1052,19 @@ h3 a:active {
   font-weight: bold;
   line-height: 27px;
   text-decoration: none;
+  margin-right: 3px;
 }
 
-.blue-button a:hover {
+.blue-button:hover {
   background-color: #669ec0;
 }
 
-.blue-button a:active {
+.blue-button:active {
   color: #88b6d1;
   background-color: #5496bd;
 }
 
 .brown-button {
-  display: inline-block;
-}
-
-.brown-button a {
   display: inline-block;
   width: 142px;
   height: 27px;
@@ -1077,11 +1076,11 @@ h3 a:active {
   text-decoration: none;
 }
 
-.brown-button a:hover {
+.brown-button:hover {
   background-color: #604e43;
 }
 
-.brown-button a:active {
+.brown-button:active {
   color: #81746d;
   background-color: #503e33;
 }
@@ -1116,12 +1115,6 @@ h3 a:active {
 }
 
 /*Спрайт*/
-
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
 
 .sprite-calendar {
     width: 21px;
