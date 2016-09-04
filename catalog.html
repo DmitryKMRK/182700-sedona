@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Sedona - Hotels</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
@@ -11,14 +12,12 @@
   <body>
     <div class="container">
       <header class="main-header clearfix">
-        <div class="navigation">
           <ul class="navigation-menu">
             <li class="navigation-menu-item"><a href="/">Информация</a></li>
             <li class="navigation-menu-item"><a href="/">Фото и видео</a></li>
             <li class="navigation-menu-item"><a href="/">Карта штата</a></li>
-            <li class="navigation-menu-item"><a href="/">Гостиницы</a></li>
+            <li class="navigation-menu-item navigation-menu-item-active"><a href="/">Гостиницы</a></li>
           </ul>
-        </div>
         <div class="logo">
           <a href="index.html"><img src="img/logo-combined.png" alt="Лого" width="138" height="70"></a>
         </div>
@@ -36,7 +35,7 @@
                   <label for="pool">Бассейн</label></li>
                   <li><input id="parking" class="form-item" type="checkbox" name="parking" value="parking">
                   <label for="parking">Парковка</label></li>
-                  <li><input id="wi-fi" class="form-item" type="checkbox" name="wi-fi" value="wi-fi" disabled>
+                  <li><input id="wi-fi" class="form-item" type="checkbox" name="wi-fi" value="wi-fi">
                   <label for="wi-fi">Wi-Fi</label></li>
                 </ul>
               </div>
@@ -47,7 +46,7 @@
                   <label for="hotel">Гостиница</label></li>
                   <li><input id="motel" class="form-item" type="checkbox" name="motel" value="motel" checked>
                   <label for="motel">Мотель</label></li>
-                  <li><input id="appartments" class="form-item" type="checkbox" name="appartments" value="appartments" checked disabled>
+                  <li><input id="appartments" class="form-item" type="checkbox" name="appartments" value="appartments" checked>
                   <label for="appartments">Апартаменты</label></li>
                 </ul>
               </div>
