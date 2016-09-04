@@ -636,7 +636,8 @@ body > .container {
 .footer-social {
   float: left;
   font-size: 0px;
-  text-align: center;
+  padding-left: 124px;
+  box-sizing: border-box;
 }
 
 .social-btn {
@@ -681,13 +682,13 @@ body > .container {
 
 .social-btn-fb::before {
   width: 10px;
-  height: 19px;
+  height: 23px;
   background-position: -221px -10px;
 }
 
 .social-btn-fb:active::before {
   width: 10px;
-  height: 19px;
+  height: 23px;
   background-position: -251px -10px;
 }
 
@@ -839,6 +840,7 @@ body > .container {
   border: 2px solid #ffffff;
   border-radius: 2px;
   padding-bottom: 3px;
+  padding-left: 64px;
 }
 
 .price-controls::after {
@@ -860,17 +862,20 @@ body > .container {
   cursor: pointer;
 }
 
+.price-controls label:nth-child(2) {
+  margin-left: 57px;
+}
+
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 61px;
+  padding-top: 5px;
 }
 
 .price-controls input {
   width: 50px;
   margin: 0;
   line-height: 21px;
-  padding-top: 6px;
   box-sizing: border-box;
   color: inherit;
   font: inherit;
@@ -1154,7 +1159,7 @@ h3 a:active {
   margin-top: 45px;
   margin-right: 1px;
   padding-top: 3px;
-  padding-left: 3px;
+  padding-left: 5px;
   box-sizing: border-box;
 }
 
