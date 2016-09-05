@@ -93,11 +93,15 @@ body > .container {
 }
 
 .navigation-menu-item:nth-child(1) a {
-  margin-left: -5px;
+  margin-left: -3px;
+}
+
+.navigation-menu-item:nth-child(2) a {
+  margin-left: 2px;
 }
 
 .navigation-menu-item:nth-child(4) a {
-  margin-right: -15px;
+  margin-right: -17px;
 }
 
 .navigation-menu a:hover {
@@ -132,7 +136,7 @@ body > .container {
   min-height: 508px;
   background-image: url(../img/main-photo.jpg);
   background-color: #e4f1fa;
-  background-position: -1px -56px;
+  background-position: 0px -56px;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
@@ -167,8 +171,8 @@ body > .container {
 .sedona-introduction {
   text-align: center;
   background-color: white;
-  padding-top: 45px;
-  padding-bottom: 39px;
+  padding-top: 46px;
+  padding-bottom: 37px;
 }
 
 .sedona-introduction h1 {
@@ -181,7 +185,7 @@ body > .container {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
-  margin-top: 26px;
+  margin-top: 27px;
 }
 
 .feature h3 {
@@ -198,7 +202,7 @@ body > .container {
 .feature span {
   display: inline-block;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 .feature-img-block {
@@ -220,7 +224,8 @@ body > .container {
 .feature-blue-2 {
   background-color: #81b3d2;
   width: 400px;
-  height: 256px;
+  height: 255px;
+  padding-top: 1px;
   float: right;
   text-align: center;
 }
@@ -310,7 +315,7 @@ body > .container {
 }
 
 .feature-item h3 {
-  margin-top: 46px;
+  margin-top: 47px;
 }
 
 .feature-item p,
@@ -334,6 +339,7 @@ body > .container {
 .booking-title p {
   font-size: 14px;
   line-height: 24px;
+  margin-bottom: 0;
   color: #333333;
 }
 
@@ -352,6 +358,7 @@ body > .container {
   line-height: 26px;
   font-weight: bold;
   padding: 30px 139px;
+  padding-right: 140px;
   box-sizing: border-box;
 }
 
@@ -370,7 +377,6 @@ body > .container {
   line-height: 26px;
   background-color: white;
   padding: 55px;
-  padding-right: 54px;
   position: absolute;
   left: 316px;
   bottom: -395px;
